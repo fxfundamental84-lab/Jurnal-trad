@@ -14,10 +14,10 @@ class _MainNavigationState extends State<MainNavigation> {
 
   final List<Widget> _pages = [
     const DashboardScreen(),
-    const PlaceholderScreen(title: 'Riwayat Jurnal Trading'),
+    const JournalScreen(),
     const AddTradeScreen(),
     const EvaluationScreen(),
-    const PlaceholderScreen(title: 'Pengaturan & Backup'),
+    const SettingsScreen(),
   ];
 
   @override
