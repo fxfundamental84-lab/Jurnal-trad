@@ -69,10 +69,9 @@ class DatabaseHelper {
     return await db.delete('trades', where: 'id = ?', whereArgs: [id]);
   }
 
-  Future<close> closeDB() async {
-    final db = await _database;
-    if (db != null) {
-      await db.close();
-    }
-  }
-}
+  Future<void> closeDB() async {
+   final db = await _database;
+     if (db != null) {
+    await db.close();
+   }
+ }
