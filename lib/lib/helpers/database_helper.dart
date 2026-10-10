@@ -71,7 +71,7 @@ class DatabaseHelper {
 
   Future<void> closeDB() async {
    final db = await _database;
-     if (db != null) {
+   if (db != null) {
     await db.close();
    }
  }
