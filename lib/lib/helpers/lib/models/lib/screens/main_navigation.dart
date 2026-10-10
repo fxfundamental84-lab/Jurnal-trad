@@ -15,7 +15,7 @@ class _MainNavigationState extends State<MainNavigation> {
   final List<Widget> _pages = [
     const DashboardScreen(),
     const PlaceholderScreen(title: 'Riwayat Jurnal Trading'),
-    const PlaceholderScreen(title: 'Tambah Trade Baru'),
+    const AddTradeScreen(),
     const PlaceholderScreen(title: 'Evaluasi & Performa'),
     const PlaceholderScreen(title: 'Pengaturan & Backup'),
   ];
