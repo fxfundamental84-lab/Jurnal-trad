@@ -16,7 +16,7 @@ class _MainNavigationState extends State<MainNavigation> {
     const DashboardScreen(),
     const PlaceholderScreen(title: 'Riwayat Jurnal Trading'),
     const AddTradeScreen(),
-    const PlaceholderScreen(title: 'Evaluasi & Performa'),
+    const EvaluationScreen(),
     const PlaceholderScreen(title: 'Pengaturan & Backup'),
   ];
 
